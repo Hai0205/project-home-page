@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header-main">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="#" class="logo">Intere<span>O</span></a>
+            <ul class="menu">
+              <li>
+                <a href="#home" class="menu-link">Home</a>
+              </li>
+              <li>
+                <a href="#promo" class="menu-link">Promo</a>
+              </li>
+              <li>
+                <a href="#service" class="menu-link">Services</a>
+              </li>
+              <li>
+                <a href="#project" class="menu-link">Projects</a>
+              </li>
+            </ul>
+            <div class="list-btn">
+              <a href="#" class="btn btn--secondary" id="sign-in-btn"
+                >Sign in</a
+              >
+              <a href="./account.html" class="btn btn--primary">Sign up</a>
+
+              <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+          <h3>Sign Up</h3>
+          <input
+            type="email"
+            class="box"
+            placeholder="Enter your email"
+            pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
+          />
+          <input
+            type="password"
+            class="box"
+            placeholder="Enter your password"
+            pattern="[a-zA-Z0-9]{8,}"
+          />
+          <input type="submit" value="login now" class="btn btn--signup" />
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember me</label>
+          <p>Forget password? <a href="#">Click here</a></p>
+          <p>
+            Don't have and account? <a href="./account.html">Register now</a>
+          </p>
+        </form>
+      </div>
+      <main>
+        <section class="home" id="home">
+          <div class="container">
+            <div class="home-main">
+              <div class="home-content">
+                <h1>
+                  Better<br />
+                  home <br />better life
+                </h1>
+                <p>
+                  We are highly skilled architectural agency with a special in
+                  exterior & interior design
+                </p>
+                <div class="home-btn">
+                  <a href="#" class="btn btn--primary">Get Started</a>
+                  <a href="#" class="btn btn--none">How it to work ?</a>
+                </div>
+              </div>
+              <div class="home-cards">
+                <a href="#" class="card-item">
+                  <img src="../image/house-1.png" alt="" />
+                </a>
+                <a href="#" class="card-item">
+                  <img src="../image/house-2.png" alt="" />
+                </a>
+                <a href="#" class="card-item">
+                  <img src="../image/house-3.png" alt="" />
+                </a>
+                <a href="#" class="card-item">
+                  <img src="../image/house-4.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service" id="service">
+          <div class="container">
+            <div class="service-header">
+              <div class="service-left">
+                <h2 class="title"><span>Service</span> We Served For You.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis rem eligendi consectetur nemo laborum corrupti.
+                </p>
+              </div>
+
+              <div class="service-right">
+                <a href="#" class="btn btn--primary">Learn more</a>
+              </div>
+            </div>
+            <div class="service-bottom">
+              <div class="service-list">
+                <div class="service-item">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                  <h3>Architecture</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi non, doloremque harum consequuntur vel eos, natus enim
+                    ullam consequatur quaerat aspernatur esse unde eum,
+                    cupiditate vitae ex. Ipsa, sunt provident?
+                  </p>
+                </div>
+                <div class="service-item">
+                  <i class="fa-solid fa-house"></i>
+                  <h3>Exterior Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi non, doloremque harum consequuntur vel eos, natus enim
+                    ullam consequatur quaerat aspernatur esse unde eum,
+                    cupiditate vitae ex. Ipsa, sunt provident?
+                  </p>
+                </div>
+                <div class="service-item">
+                  <ion-icon name="bed-outline"></ion-icon>
+                  <h3>Interior Design</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi non, doloremque harum consequuntur vel eos, natus enim
+                    ullam consequatur quaerat aspernatur esse unde eum,
+                    cupiditate vitae ex. Ipsa, sunt provident?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="store">
+          <div class="container">
+            <div class="store-main">
+              <div class="store-cards">
+                <div class="card-item">
+                  <img src="../image/image-s1.png" alt="" />
+                </div>
+                <div class="card-item">
+                  <img src="../image/image-s2.png" alt="" />
+                </div>
+                <div class="card-item">
+                  <img src="../image/image-s3.png" alt="" />
+                </div>
+                <div class="card-item">
+                  <img src="../image/image-s4.png" alt="" />
+                </div>
+              </div>
+              <div class="store-content">
+                <h2 class="title">Our <span>Store</span> Products</h2>
+                <p>Product which are fully customizable according your need</p>
+                <a href="#" class="btn btn--primary">see more</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="project" id="project">
+          <div class="container">
+            <div class="project-main">
+              <h2 class="title">Over 1000 <span>Project Completed</span></h2>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slide">
+                    <div class="project-img">
+                      <img src="../image/p1.png" alt="" />
+                    </div>
+                    <div class="project-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni laudantium id odit qui commodi quia praesentium,
+                        ratione quae, similique expedita aliquam hic. Odit
+                        quidem, optio sint non voluptatibus magni officiis.
+                      </p>
+                      <h3>HaiCoder</h3>
+                      <h4>Front End Developer</h4>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                    <div class="project-img">
+                      <img src="../image/p2.png" alt="" />
+                    </div>
+                    <div class="project-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni laudantium id odit qui commodi quia praesentium,
+                        ratione quae, similique expedita aliquam hic. Odit
+                        quidem, optio sint non voluptatibus magni officiis.
+                      </p>
+                      <h3>HaiCoder</h3>
+                      <h4>Front End Developer</h4>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                    <div class="project-img">
+                      <img src="../image/p3.png" alt="" />
+                    </div>
+                    <div class="project-content">
+                      <i class="fa-solid fa-quote-left"></i>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magni laudantium id odit qui commodi quia praesentium,
+                        ratione quae, similique expedita aliquam hic. Odit
+                        quidem, optio sint non voluptatibus magni officiis.
+                      </p>
+                      <h3>HaiCoder</h3>
+                      <h4>Front End Developer</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="navigation">
+                  <div class="swiper-button-next">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="promo" id="promo">
+          <div class="container">
+            <div class="promo-main">
+              <h2 class="title">Before End Of The <span>Promo</span></h2>
+              <p>
+                We organize a promo days in every 3 month to provide services in
+                a best price
+              </p>
+            </div>
+          </div>
+          <div class="countdown">
+            <ul>
+              <li><span id="days"></span>Days</li>
+              <li><span id="hours"></span>Hours</li>
+              <li><span id="minutes"></span>Minutes</li>
+              <li><span id="seconds"></span>Seconds</li>
+            </ul>
+          </div>
+        </section>
+        <section class="partner">
+          <div class="container">
+            <div class="partner-main">
+              <div class="partner-left">
+                <h2 class="title">Our Lovely <br /><span>Partners</span></h2>
+                <p>
+                  Our partners always have a trust on us so we can long last the
+                  relation
+                </p>
+              </div>
+              <div class="partner-right">
+                <a href="#" class="partner-item">
+                  <img src="../image/logo1.png" alt="" />
+                </a>
+                <a href="#" class="partner-item">
+                  <img src="../image/logo2.png" alt="" />
+                </a>
+                <a href="#" class="partner-item">
+                  <img src="../image/logo3.png" alt="" />
+                </a>
+                <a href="#" class="partner-item">
+                  <img src="../image/logo4.png" alt="" />
+                </a>
+                <a href="#" class="partner-item">
+                  <img src="../image/logo5.png" alt="" />
+                </a>
+                <a href="#" class="partner-item">
+                  <img src="../image/logo6.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="offer">
+          <div class="container">
+            <div class="offer-main">
+              <h2 class="title">
+                Get The Best <span>Offer From Us</span> For You
+              </h2>
+              <p>
+                Get in touch with us & discuss your dream project with us. We'll
+                help you transform it intro reality!
+              </p>
+              <div class="form">
+                <input type="text" class="form-input" placeholder=" " />
+                <label for="email" class="form-label">Your Email Address</label>
+                <a href="#" class="btn btn--primary">SUBSCRIBE</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-left">
+              <a href="#" class="logo">Intere<span>O</span></a>
+              <p>Design solution tailored to your style, space and budget</p>
+              <h5>&#169;2022</h5>
+            </div>
+            <div class="footer-right">
+              <div class="footer-right-item">
+                <h3>Offer</h3>
+                <a href="#">% Off</a>
+                <a href="#">Free Trial</a>
+                <a href="#">Free Service</a>
+              </div>
+              <div class="footer-right-item">
+                <h3>menu</h3>
+                <a href="#">Promo</a>
+                <a href="#">Serviecs</a>
+                <a href="#">Projects</a>
+              </div>
+              <div class="footer-right-item">
+                <h3>about</h3>
+                <a href="#">Contact</a>
+                <a href="#">Career</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="container">
+          <div class="footer-bottom">
+            <div class="footer-share">
+              <a href="#" class="fab fa-facebook"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-github"></a>
+              <a href="#" class="fab fa-youtube"></a>
+            </div>
+            <div class="footer-about">
+              <a href="#">Terms Of Service</a>
+              <a href="#">Privacy & Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <a href="#" class="scrollup" id="scroll-up">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </a>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
+<!-- https://www.youtube.com/watch?v=WO2X_Ms7jMY&t=0s&ab_channel=UnmuteCoder -->
